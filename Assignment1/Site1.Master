@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Assignment1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form1 {
+            height: 1545px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" aria-orientation="horizontal" style="background-color: #CCCCFF" aria-hidden="False">
+        <div style="height: 459px">
+            <br />
+            <center>
+         
+            <asp:Label ID="Label1" runat="server" Text="~ OPUS MUSICAL CLASS ~"
+             BackColor="#FFCCCC" Font-Size="XX-Large" ForeColor="#6600CC"></asp:Label>
+            <br />
+            <br />
+                <center>
+        <img alt="See the source image" src="https://th.bing.com/th/id/R.ef23b24b68869a419924220ef549a0b1?rik=NQqI7Rdz4qxcgg&amp;riu=http%3a%2f%2fpluspng.com%2fimg-png%2fmusic-notes-png-hd-download-1920.png&amp;ehk=O23v41zy3b%2fmUaUcGfobA7QL1lJ2QAwalgwxKqAfHLI%3d&amp;risl=&amp;pid=ImgRaw&amp;r=0" style="height: 157px; width: 485px" />
+            
+            <center>
+            <br />
+            <br />
+            <br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
